@@ -3,7 +3,6 @@ Perfect for both beginners and professionals to master SQL easily. Check it out 
 
 ====================================================================================
 
-
 -- 1) Basic create
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
@@ -20,7 +19,7 @@ CREATE TABLE departments (
     location  VARCHAR(100) NOT NULL
 );
 
--- 3) Create table as select
+-- 3) Create table as select ---(CTAS)
 CREATE TABLE high_paid_employees AS
 SELECT 
     employee_id, 
