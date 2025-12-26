@@ -76,6 +76,7 @@ The email column can have one or more NULL values, but each non-NULL email must 
 ---
 
  3. NOT NULL Constraint Failure
+    ============================
 
 The NOT NULL constraint ensures that a column cannot contain NULL values. If you try to insert a NULL value into a NOT NULL column, the operation will fail.
 
